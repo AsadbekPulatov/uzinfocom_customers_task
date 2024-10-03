@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Events\CreateCustomer;
 use App\Models\Customer;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -16,7 +15,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-         User::factory(10)->create();
+        User::insert([
+            'name' => 'admin',
+            'email' => 'admin@gmail.com',
+            'password' => bcrypt('admin'),
+        ]);
 
         for ($i=0; $i<1000; $i++){
             $test = new CustomerFactory(1000);

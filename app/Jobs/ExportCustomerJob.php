@@ -41,6 +41,6 @@ class ExportCustomerJob implements ShouldQueue
         });
 
         fclose($file);
-        event(new ExportCustomerEvent($fileName));
+        broadcast(new ExportCustomerEvent($fileName));
     }
 }

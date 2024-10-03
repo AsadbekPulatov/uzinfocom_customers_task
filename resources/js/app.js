@@ -6,7 +6,7 @@ import DownloadButton from "./components/DownloadButton.vue";
 const app = createApp({
     components: {
         DownloadButton
-    }
+    },
 })
 
 app.mount('#app')
