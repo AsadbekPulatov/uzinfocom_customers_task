@@ -2,8 +2,6 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Jobs\ExportCustomerJob;
-use App\Models\Customer;
-use App\Services\ExportToCSV;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {

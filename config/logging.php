@@ -89,7 +89,7 @@ return [
             'handler_with' => [
                 'host' => env('PAPERTRAIL_URL'),
                 'port' => env('PAPERTRAIL_PORT'),
-                'connectionString' => 'tls://'.env('PAPERTRAIL_URL').':'.env('PAPERTRAIL_PORT'),
+                'connectionString' => 'tls://' . env('PAPERTRAIL_URL') . ':' . env('PAPERTRAIL_PORT'),
             ],
             'processors' => [PsrLogMessageProcessor::class],
         ],
@@ -126,6 +126,35 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+
+        'loki' => [
+            'driver'         => 'monolog',
+            'level'          => env('LOG_LEVEL', 'debug'),
+            'handler'        => \Itspire\MonologLoki\Handler\LokiHandler::class,
+            'formatter'      => \Itspire\MonologLoki\Formatter\LokiFormatter::class,
+            'formatter_with' => [
+                'labels' => [],
+                'context' => [],
+                'systemName' => env('LOKI_SYSTEM_NAME', null),
+                'extraPrefix' => env('LOKI_EXTRA_PREFIX', ''),
+                'contextPrefix' => env('LOKI_CONTEXT_PREFIX', '')
+            ],
+            'handler_with'   => [
+                'apiConfig'  => [
+                    'entrypoint'  => env('LOKI_ENTRYPOINT', "http://localhost:3100"),
+                    'context'     => ['demo'],
+                    'labels'      => ['demo2'],
+                    'client_name' => 'demo3',
+                    'auth' => [
+                        'basic' => [
+                            env('LOKI_AUTH_BASIC_USER', ''),
+                            env('LOKI_AUTH_BASIC_PASSWORD', '')
+                        ],
+                    ],
+                ],
+            ],
+        ],
+
 
     ],
 
