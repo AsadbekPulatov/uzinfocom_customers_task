@@ -16722,3 +16722,40 @@
 #60 {main}
 "} 
 [2024-10-04 10:55:06] laravel.INFO: This is an info log for Loki!  
+[2024-10-04 12:50:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Undefined constant \"Itspire\\MonologLoki\\Handler\\CURLOPT_CUSTOMREQUEST\" at /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/itspire/monolog-loki/src/main/php/Handler/LokiHandler.php:42)
+[stacktrace]
+#0 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(983): [constant expression]()
+#1 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(983): ReflectionClass->newInstanceArgs()
+#2 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\\Container\\Container->build()
+#3 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\\Container\\Container->resolve()
+#4 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\\Foundation\\Application->resolve()
+#5 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\\Container\\Container->make()
+#6 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(425): Illuminate\\Foundation\\Application->make()
+#7 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(241): Illuminate\\Log\\LogManager->createMonologDriver()
+#8 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(138): Illuminate\\Log\\LogManager->resolve()
+#9 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(125): Illuminate\\Log\\LogManager->get()
+#10 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(700): Illuminate\\Log\\LogManager->driver()
+#11 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(378): Illuminate\\Log\\LogManager->error()
+#12 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(341): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable()
+#13 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(46): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#14 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(620): NunoMaduro\\Collision\\Adapters\\Laravel\\ExceptionHandler->report()
+#15 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate\\Foundation\\Console\\Kernel->reportException()
+#16 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1203): Illuminate\\Foundation\\Console\\Kernel->handle()
+#17 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#18 {main}
+"} 
+[2024-10-04 12:50:30] laravel.ERROR: Class "DOMDocument" not found {"exception":"[object] (Error(code: 0): Class \"DOMDocument\" not found at /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Descriptor/XmlDescriptor.php:84)
+[stacktrace]
+#0 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Descriptor/XmlDescriptor.php(145): Symfony\\Component\\Console\\Descriptor\\XmlDescriptor->getApplicationDocument()
+#1 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Descriptor/Descriptor.php(40): Symfony\\Component\\Console\\Descriptor\\XmlDescriptor->describeApplication()
+#2 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Helper/DescriptorHelper.php(67): Symfony\\Component\\Console\\Descriptor\\Descriptor->describe()
+#3 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Command/ListCommand.php(63): Symfony\\Component\\Console\\Helper\\DescriptorHelper->describe()
+#4 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Command/Command.php(279): Symfony\\Component\\Console\\Command\\ListCommand->execute()
+#5 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Application.php(1047): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#8 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(197): Symfony\\Component\\Console\\Application->run()
+#9 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1203): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 /media/asadbek/Локальный диск2/xampp 2/htdocs/UZINFOCOM/customer_task/src/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#11 {main}
+"} 
