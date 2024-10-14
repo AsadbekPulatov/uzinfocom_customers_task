@@ -5,8 +5,11 @@ use App\Jobs\ExportCustomerJob;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    dd(gethostname());
     return view('welcome');
 });
+
+Route::view('/download/test/my/telescope', 'telescope');
 
 Route::get('/download',function (){
    ExportCustomerJob::dispatch();

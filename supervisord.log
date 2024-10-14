@@ -1,0 +1,871 @@
+2024-10-08 15:14:05,539 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-08 15:14:05,542 INFO supervisord started with pid 1
+2024-10-08 15:14:06,549 INFO spawned: 'npm' with pid 35
+2024-10-08 15:14:06,554 INFO spawned: 'php-fpm' with pid 36
+2024-10-08 15:14:06,560 INFO spawned: 'queue' with pid 37
+2024-10-08 15:14:06,565 INFO spawned: 'reverb' with pid 38
+2024-10-08 15:14:07,794 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-08 15:14:07,794 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-08 15:14:07,794 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-08 15:14:07,795 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-08 15:17:04,833 WARN received SIGQUIT indicating exit request
+2024-10-08 15:17:04,833 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-08 15:17:04,854 INFO stopped: reverb (exit status 0)
+2024-10-08 15:17:04,886 INFO stopped: queue (exit status 0)
+2024-10-08 15:17:05,908 INFO stopped: php-fpm (exit status 0)
+2024-10-08 15:17:06,910 WARN stopped: npm (terminated by SIGTERM)
+2024-10-09 05:45:01,027 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-09 05:45:01,030 INFO supervisord started with pid 1
+2024-10-09 05:45:02,033 INFO spawned: 'npm' with pid 45
+2024-10-09 05:45:02,036 INFO spawned: 'php-fpm' with pid 46
+2024-10-09 05:45:02,038 INFO spawned: 'queue' with pid 47
+2024-10-09 05:45:02,042 INFO spawned: 'reverb' with pid 48
+2024-10-09 05:45:02,946 WARN exited: npm (exit status 127; not expected)
+2024-10-09 05:45:04,003 INFO spawned: 'npm' with pid 70
+2024-10-09 05:45:04,003 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:45:04,004 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:45:04,004 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:45:04,186 WARN exited: npm (exit status 127; not expected)
+2024-10-09 05:45:06,190 INFO spawned: 'npm' with pid 82
+2024-10-09 05:45:06,387 WARN exited: npm (exit status 127; not expected)
+2024-10-09 05:45:09,395 INFO spawned: 'npm' with pid 94
+2024-10-09 05:45:09,617 WARN exited: npm (exit status 127; not expected)
+2024-10-09 05:45:10,072 INFO gave up: npm entered FATAL state, too many start retries too quickly
+2024-10-09 05:51:09,294 INFO reaped unknown pid 181 (terminated by SIGINT)
+2024-10-09 05:53:38,316 INFO reaped unknown pid 219 (terminated by SIGINT)
+2024-10-09 05:53:49,329 WARN received SIGQUIT indicating exit request
+2024-10-09 05:53:49,330 INFO waiting for php-fpm, queue, reverb to die
+2024-10-09 05:53:49,371 INFO stopped: reverb (exit status 0)
+2024-10-09 05:53:49,394 INFO stopped: queue (exit status 0)
+2024-10-09 05:53:49,411 INFO stopped: php-fpm (exit status 0)
+2024-10-09 05:56:38,222 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-09 05:56:38,224 INFO supervisord started with pid 1
+2024-10-09 05:56:39,230 INFO spawned: 'npm' with pid 45
+2024-10-09 05:56:39,235 INFO spawned: 'php-fpm' with pid 46
+2024-10-09 05:56:39,237 INFO spawned: 'queue' with pid 47
+2024-10-09 05:56:39,239 INFO spawned: 'reverb' with pid 48
+2024-10-09 05:56:40,363 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:56:40,363 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:56:40,364 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:56:40,364 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-09 05:58:39,532 WARN received SIGQUIT indicating exit request
+2024-10-09 05:58:39,533 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-09 05:58:39,554 INFO stopped: reverb (exit status 0)
+2024-10-09 05:58:39,578 INFO stopped: queue (exit status 0)
+2024-10-09 05:58:39,593 INFO stopped: php-fpm (exit status 0)
+2024-10-09 05:58:40,594 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 04:39:17,806 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 04:39:17,811 INFO supervisord started with pid 1
+2024-10-10 04:39:18,816 INFO spawned: 'npm' with pid 45
+2024-10-10 04:39:18,820 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 04:39:18,823 INFO spawned: 'queue' with pid 47
+2024-10-10 04:39:18,827 INFO spawned: 'reverb' with pid 48
+2024-10-10 04:39:19,959 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 04:39:19,959 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 04:39:19,960 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 04:39:19,960 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:35:20,923 WARN received SIGQUIT indicating exit request
+2024-10-10 08:35:20,924 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 08:35:20,946 INFO stopped: reverb (exit status 0)
+2024-10-10 08:35:20,975 INFO stopped: queue (exit status 0)
+2024-10-10 08:35:20,992 INFO stopped: php-fpm (exit status 0)
+2024-10-10 08:35:21,993 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 08:37:08,601 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 08:37:08,603 INFO supervisord started with pid 1
+2024-10-10 08:37:09,609 INFO spawned: 'npm' with pid 45
+2024-10-10 08:37:09,612 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 08:37:09,614 INFO spawned: 'queue' with pid 47
+2024-10-10 08:37:09,616 INFO spawned: 'reverb' with pid 48
+2024-10-10 08:37:10,714 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:37:10,714 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:37:10,714 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:37:10,714 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:37:52,364 WARN received SIGQUIT indicating exit request
+2024-10-10 08:37:52,364 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 08:37:52,384 INFO stopped: reverb (exit status 0)
+2024-10-10 08:37:52,409 INFO stopped: queue (exit status 0)
+2024-10-10 08:37:52,424 INFO stopped: php-fpm (exit status 0)
+2024-10-10 08:37:53,425 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 08:39:44,823 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 08:39:44,825 INFO supervisord started with pid 1
+2024-10-10 08:39:45,831 INFO spawned: 'npm' with pid 45
+2024-10-10 08:39:45,837 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 08:39:45,843 INFO spawned: 'queue' with pid 47
+2024-10-10 08:39:45,849 INFO spawned: 'reverb' with pid 48
+2024-10-10 08:39:47,008 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:39:47,109 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:39:47,109 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 08:39:47,110 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:11:47,645 WARN received SIGQUIT indicating exit request
+2024-10-10 09:11:47,646 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 09:11:47,667 INFO stopped: reverb (exit status 0)
+2024-10-10 09:11:47,699 INFO stopped: queue (exit status 0)
+2024-10-10 09:11:48,716 INFO stopped: php-fpm (exit status 0)
+2024-10-10 09:11:49,718 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 09:16:35,928 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 09:16:35,931 INFO supervisord started with pid 1
+2024-10-10 09:16:36,936 INFO spawned: 'npm' with pid 45
+2024-10-10 09:16:36,941 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 09:16:36,947 INFO spawned: 'queue' with pid 47
+2024-10-10 09:16:36,952 INFO spawned: 'reverb' with pid 48
+2024-10-10 09:16:38,036 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:16:38,036 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:16:38,036 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:16:38,036 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:27:30,052 WARN received SIGQUIT indicating exit request
+2024-10-10 09:27:30,053 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 09:27:30,080 INFO stopped: reverb (exit status 0)
+2024-10-10 09:27:30,109 INFO stopped: queue (exit status 0)
+2024-10-10 09:27:30,124 INFO stopped: php-fpm (exit status 0)
+2024-10-10 09:27:31,126 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 09:33:59,383 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 09:33:59,385 INFO supervisord started with pid 1
+2024-10-10 09:34:00,390 INFO spawned: 'npm' with pid 45
+2024-10-10 09:34:00,396 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 09:34:00,402 INFO spawned: 'queue' with pid 47
+2024-10-10 09:34:00,408 INFO spawned: 'reverb' with pid 48
+2024-10-10 09:34:01,432 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:34:01,433 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:34:01,433 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:34:01,433 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:40:56,359 WARN received SIGQUIT indicating exit request
+2024-10-10 09:40:56,360 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 09:40:56,388 INFO stopped: reverb (exit status 0)
+2024-10-10 09:40:56,427 INFO stopped: queue (exit status 0)
+2024-10-10 09:40:56,444 INFO stopped: php-fpm (exit status 0)
+2024-10-10 09:40:57,445 WARN stopped: npm (terminated by SIGTERM)
+2024-10-10 09:44:16,056 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-10 09:44:16,059 INFO supervisord started with pid 1
+2024-10-10 09:44:17,061 INFO spawned: 'npm' with pid 45
+2024-10-10 09:44:17,064 INFO spawned: 'php-fpm' with pid 46
+2024-10-10 09:44:17,068 INFO spawned: 'queue' with pid 47
+2024-10-10 09:44:17,071 INFO spawned: 'reverb' with pid 48
+2024-10-10 09:44:18,080 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:44:18,080 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:44:18,080 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:44:18,081 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-10 09:54:35,431 WARN received SIGQUIT indicating exit request
+2024-10-10 09:54:35,432 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-10 09:54:35,463 INFO stopped: reverb (exit status 0)
+2024-10-10 09:54:35,494 INFO stopped: queue (exit status 0)
+2024-10-10 09:54:35,511 INFO stopped: php-fpm (exit status 0)
+2024-10-10 09:54:36,512 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 04:21:34,099 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:21:34,102 INFO supervisord started with pid 1
+2024-10-14 04:21:35,104 INFO spawned: 'php-fpm' with pid 44
+2024-10-14 04:21:35,106 INFO spawned: 'queue' with pid 45
+2024-10-14 04:21:35,107 INFO spawned: 'reverb' with pid 46
+2024-10-14 04:21:36,157 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:21:36,158 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:21:36,158 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:14,376 WARN received SIGQUIT indicating exit request
+2024-10-14 04:25:14,377 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:25:14,417 INFO stopped: reverb (exit status 0)
+2024-10-14 04:25:14,438 INFO stopped: queue (exit status 0)
+2024-10-14 04:25:14,443 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:25:54,656 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:25:54,656 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:25:54,658 INFO supervisord started with pid 1
+2024-10-14 04:25:54,658 INFO supervisord started with pid 1
+2024-10-14 04:25:54,667 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:25:54,671 INFO supervisord started with pid 1
+2024-10-14 04:25:55,661 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:25:55,661 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:25:55,663 INFO spawned: 'queue' with pid 46
+2024-10-14 04:25:55,665 INFO spawned: 'queue' with pid 46
+2024-10-14 04:25:55,668 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:25:55,669 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:25:55,675 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:25:55,683 INFO spawned: 'queue' with pid 46
+2024-10-14 04:25:55,703 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:25:56,774 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,775 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,776 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,779 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,780 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,798 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,886 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,886 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:25:56,887 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:26:33,629 WARN received SIGQUIT indicating exit request
+2024-10-14 04:26:33,629 WARN received SIGQUIT indicating exit request
+2024-10-14 04:26:33,629 WARN received SIGQUIT indicating exit request
+2024-10-14 04:26:33,630 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:26:33,630 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:26:33,630 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:26:33,666 INFO stopped: reverb (exit status 0)
+2024-10-14 04:26:33,673 INFO stopped: reverb (exit status 0)
+2024-10-14 04:26:33,673 INFO stopped: reverb (exit status 0)
+2024-10-14 04:26:33,685 INFO stopped: queue (exit status 0)
+2024-10-14 04:26:33,690 INFO stopped: queue (exit status 0)
+2024-10-14 04:26:33,691 INFO stopped: queue (exit status 0)
+2024-10-14 04:26:33,692 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:26:33,696 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:26:33,698 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:27:14,819 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:27:14,821 INFO supervisord started with pid 1
+2024-10-14 04:27:14,833 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:27:14,835 INFO supervisord started with pid 1
+2024-10-14 04:27:14,846 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:27:14,849 INFO supervisord started with pid 1
+2024-10-14 04:27:15,823 INFO spawned: 'php-fpm' with pid 44
+2024-10-14 04:27:15,825 INFO spawned: 'queue' with pid 45
+2024-10-14 04:27:15,827 INFO spawned: 'reverb' with pid 46
+2024-10-14 04:27:15,838 INFO spawned: 'php-fpm' with pid 44
+2024-10-14 04:27:15,841 INFO spawned: 'queue' with pid 45
+2024-10-14 04:27:15,844 INFO spawned: 'reverb' with pid 46
+2024-10-14 04:27:15,855 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:27:15,874 INFO spawned: 'queue' with pid 46
+2024-10-14 04:27:15,887 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:27:16,926 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,927 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,927 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,947 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,948 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,948 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,981 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,982 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:27:16,982 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:05,977 WARN received SIGQUIT indicating exit request
+2024-10-14 04:29:05,978 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:29:05,980 WARN received SIGQUIT indicating exit request
+2024-10-14 04:29:05,981 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:29:05,983 WARN received SIGQUIT indicating exit request
+2024-10-14 04:29:05,983 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:29:06,017 INFO stopped: reverb (exit status 0)
+2024-10-14 04:29:06,025 INFO stopped: reverb (exit status 0)
+2024-10-14 04:29:06,026 INFO stopped: reverb (exit status 0)
+2024-10-14 04:29:06,040 INFO stopped: queue (exit status 0)
+2024-10-14 04:29:06,041 INFO stopped: queue (exit status 0)
+2024-10-14 04:29:06,045 INFO stopped: queue (exit status 0)
+2024-10-14 04:29:06,046 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:29:06,047 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:29:06,050 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:29:45,130 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:29:45,133 INFO supervisord started with pid 1
+2024-10-14 04:29:45,136 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:29:45,138 INFO supervisord started with pid 1
+2024-10-14 04:29:45,145 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:29:45,147 INFO supervisord started with pid 1
+2024-10-14 04:29:46,135 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:29:46,137 INFO spawned: 'queue' with pid 46
+2024-10-14 04:29:46,139 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:29:46,140 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:29:46,142 INFO spawned: 'queue' with pid 46
+2024-10-14 04:29:46,145 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:29:46,157 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:29:46,171 INFO spawned: 'queue' with pid 46
+2024-10-14 04:29:46,176 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:29:47,238 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,239 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,239 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,240 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,241 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,241 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,276 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,277 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:29:47,277 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:04,741 WARN received SIGQUIT indicating exit request
+2024-10-14 04:35:04,742 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:35:04,769 INFO stopped: reverb (exit status 0)
+2024-10-14 04:35:04,785 INFO stopped: queue (exit status 0)
+2024-10-14 04:35:04,793 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:35:05,233 WARN received SIGQUIT indicating exit request
+2024-10-14 04:35:05,234 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:35:05,260 INFO stopped: reverb (exit status 0)
+2024-10-14 04:35:05,277 INFO stopped: queue (exit status 0)
+2024-10-14 04:35:05,285 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:35:05,397 WARN received SIGQUIT indicating exit request
+2024-10-14 04:35:05,398 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:35:05,412 INFO stopped: reverb (exit status 0)
+2024-10-14 04:35:05,426 INFO stopped: queue (exit status 0)
+2024-10-14 04:35:05,435 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:35:51,693 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:35:51,695 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:35:51,696 INFO supervisord started with pid 1
+2024-10-14 04:35:51,697 INFO supervisord started with pid 1
+2024-10-14 04:35:51,820 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:35:51,822 INFO supervisord started with pid 1
+2024-10-14 04:35:52,699 INFO spawned: 'php-fpm' with pid 44
+2024-10-14 04:35:52,700 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:35:52,701 INFO spawned: 'queue' with pid 45
+2024-10-14 04:35:52,702 INFO spawned: 'queue' with pid 46
+2024-10-14 04:35:52,703 INFO spawned: 'reverb' with pid 46
+2024-10-14 04:35:52,705 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:35:52,825 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:35:52,826 INFO spawned: 'queue' with pid 46
+2024-10-14 04:35:52,829 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:35:53,778 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,779 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,779 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,783 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,784 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,784 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,900 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,901 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:35:53,901 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:07,587 WARN received SIGQUIT indicating exit request
+2024-10-14 04:39:07,588 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:39:07,623 INFO stopped: reverb (exit status 0)
+2024-10-14 04:39:07,646 INFO stopped: queue (exit status 0)
+2024-10-14 04:39:07,661 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:39:07,902 WARN received SIGQUIT indicating exit request
+2024-10-14 04:39:07,903 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:39:07,939 INFO stopped: reverb (exit status 0)
+2024-10-14 04:39:07,962 INFO stopped: queue (exit status 0)
+2024-10-14 04:39:07,976 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:39:07,999 WARN received SIGQUIT indicating exit request
+2024-10-14 04:39:08,000 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:39:08,017 INFO stopped: reverb (exit status 0)
+2024-10-14 04:39:08,033 INFO stopped: queue (exit status 0)
+2024-10-14 04:39:08,043 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:39:52,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:39:52,191 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:39:52,193 INFO supervisord started with pid 1
+2024-10-14 04:39:52,194 INFO supervisord started with pid 1
+2024-10-14 04:39:52,195 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:39:52,197 INFO supervisord started with pid 1
+2024-10-14 04:39:53,195 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:39:53,197 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:39:53,199 INFO spawned: 'queue' with pid 46
+2024-10-14 04:39:53,200 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 04:39:53,203 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:39:53,201 INFO spawned: 'queue' with pid 46
+2024-10-14 04:39:53,210 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:39:53,211 INFO spawned: 'queue' with pid 46
+2024-10-14 04:39:53,219 INFO spawned: 'reverb' with pid 47
+2024-10-14 04:39:54,365 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,401 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,408 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,519 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,519 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,520 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,521 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,521 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:39:54,522 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:40:57,887 WARN received SIGQUIT indicating exit request
+2024-10-14 04:40:57,887 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:40:57,902 INFO stopped: reverb (exit status 0)
+2024-10-14 04:40:57,924 INFO stopped: queue (exit status 0)
+2024-10-14 04:40:57,937 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:40:58,002 WARN received SIGQUIT indicating exit request
+2024-10-14 04:40:58,003 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:40:58,014 INFO stopped: reverb (exit status 0)
+2024-10-14 04:40:58,026 INFO stopped: queue (exit status 0)
+2024-10-14 04:40:58,034 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:40:58,202 WARN received SIGQUIT indicating exit request
+2024-10-14 04:40:58,202 INFO waiting for php-fpm, queue, reverb to die
+2024-10-14 04:40:58,223 INFO stopped: reverb (exit status 0)
+2024-10-14 04:40:58,246 INFO stopped: queue (exit status 0)
+2024-10-14 04:40:58,261 INFO stopped: php-fpm (exit status 0)
+2024-10-14 04:48:30,970 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:48:30,971 INFO supervisord started with pid 1
+2024-10-14 04:48:31,979 INFO spawned: 'npm' with pid 45
+2024-10-14 04:48:31,984 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 04:48:31,990 INFO spawned: 'queue' with pid 47
+2024-10-14 04:48:31,996 INFO spawned: 'reverb' with pid 48
+2024-10-14 04:48:33,068 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:48:33,069 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:48:33,069 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:48:33,069 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:41,402 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:56:41,404 INFO supervisord started with pid 1
+2024-10-14 04:56:41,436 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 04:56:41,438 INFO supervisord started with pid 1
+2024-10-14 04:56:42,406 INFO spawned: 'npm' with pid 7
+2024-10-14 04:56:42,407 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 04:56:42,409 INFO spawned: 'queue' with pid 9
+2024-10-14 04:56:42,411 INFO spawned: 'reverb' with pid 10
+2024-10-14 04:56:42,441 INFO spawned: 'npm' with pid 7
+2024-10-14 04:56:42,444 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 04:56:42,447 INFO spawned: 'queue' with pid 9
+2024-10-14 04:56:42,450 INFO spawned: 'reverb' with pid 10
+2024-10-14 04:56:44,048 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,049 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,049 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,049 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,052 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,052 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,052 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 04:56:44,053 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:19:36,738 WARN received SIGQUIT indicating exit request
+2024-10-14 05:19:36,738 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:19:36,763 INFO stopped: reverb (exit status 0)
+2024-10-14 05:19:36,820 INFO stopped: queue (exit status 0)
+2024-10-14 05:19:36,835 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:19:36,917 WARN received SIGQUIT indicating exit request
+2024-10-14 05:19:36,918 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:19:36,944 INFO stopped: reverb (exit status 0)
+2024-10-14 05:19:36,994 INFO stopped: queue (exit status 0)
+2024-10-14 05:19:37,009 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:19:37,478 WARN received SIGQUIT indicating exit request
+2024-10-14 05:19:37,479 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:19:37,497 INFO stopped: reverb (exit status 0)
+2024-10-14 05:19:37,535 INFO stopped: queue (exit status 0)
+2024-10-14 05:19:37,548 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:19:37,836 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:19:38,010 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:19:38,549 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:23:27,961 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:23:27,963 INFO supervisord started with pid 1
+2024-10-14 05:23:28,019 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:23:28,021 INFO supervisord started with pid 1
+2024-10-14 05:23:28,964 INFO spawned: 'npm' with pid 6
+2024-10-14 05:23:28,966 INFO spawned: 'php-fpm' with pid 7
+2024-10-14 05:23:28,968 INFO spawned: 'queue' with pid 8
+2024-10-14 05:23:28,970 INFO spawned: 'reverb' with pid 9
+2024-10-14 05:23:29,023 INFO spawned: 'npm' with pid 7
+2024-10-14 05:23:29,026 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:23:29,029 INFO spawned: 'queue' with pid 9
+2024-10-14 05:23:29,034 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:23:30,130 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,130 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,130 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,130 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,150 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,150 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,151 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:30,151 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:49,072 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:23:49,075 INFO supervisord started with pid 1
+2024-10-14 05:23:50,077 INFO spawned: 'npm' with pid 45
+2024-10-14 05:23:50,078 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:23:50,080 INFO spawned: 'queue' with pid 47
+2024-10-14 05:23:50,083 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:23:51,263 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:51,267 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:51,267 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:23:51,267 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:28:19,397 WARN received SIGQUIT indicating exit request
+2024-10-14 05:28:19,398 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:28:19,414 INFO stopped: reverb (exit status 0)
+2024-10-14 05:28:19,448 INFO stopped: queue (exit status 0)
+2024-10-14 05:28:19,454 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:28:19,671 WARN received SIGQUIT indicating exit request
+2024-10-14 05:28:19,672 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:28:19,697 INFO stopped: reverb (exit status 0)
+2024-10-14 05:28:19,748 INFO stopped: queue (exit status 0)
+2024-10-14 05:28:19,756 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:28:19,790 WARN received SIGQUIT indicating exit request
+2024-10-14 05:28:19,791 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:28:19,830 INFO stopped: reverb (exit status 0)
+2024-10-14 05:28:19,886 INFO stopped: queue (exit status 0)
+2024-10-14 05:28:19,895 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:28:20,456 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:28:20,758 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:28:20,897 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:29:02,421 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:29:02,423 INFO supervisord started with pid 1
+2024-10-14 05:29:02,447 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:29:02,449 INFO supervisord started with pid 1
+2024-10-14 05:29:03,424 INFO spawned: 'npm' with pid 6
+2024-10-14 05:29:03,426 INFO spawned: 'php-fpm' with pid 7
+2024-10-14 05:29:03,428 INFO spawned: 'queue' with pid 8
+2024-10-14 05:29:03,430 INFO spawned: 'reverb' with pid 9
+2024-10-14 05:29:03,452 INFO spawned: 'npm' with pid 7
+2024-10-14 05:29:03,456 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:29:03,460 INFO spawned: 'queue' with pid 9
+2024-10-14 05:29:03,463 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:29:04,522 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,522 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,522 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,522 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,524 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,524 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,524 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:04,524 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:24,275 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:29:24,278 INFO supervisord started with pid 1
+2024-10-14 05:29:25,280 INFO spawned: 'npm' with pid 45
+2024-10-14 05:29:25,282 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:29:25,284 INFO spawned: 'queue' with pid 47
+2024-10-14 05:29:25,287 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:29:26,293 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:26,294 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:26,294 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:26,294 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:29:46,047 WARN received SIGQUIT indicating exit request
+2024-10-14 05:29:46,048 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:29:46,064 INFO stopped: reverb (exit status 0)
+2024-10-14 05:29:46,090 INFO stopped: queue (exit status 0)
+2024-10-14 05:29:46,096 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:29:46,243 WARN received SIGQUIT indicating exit request
+2024-10-14 05:29:46,244 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:29:46,260 INFO stopped: reverb (exit status 0)
+2024-10-14 05:29:46,261 WARN received SIGQUIT indicating exit request
+2024-10-14 05:29:46,262 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:29:46,280 INFO stopped: reverb (exit status 0)
+2024-10-14 05:29:46,290 INFO stopped: queue (exit status 0)
+2024-10-14 05:29:46,297 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:29:46,310 INFO stopped: queue (exit status 0)
+2024-10-14 05:29:46,316 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:29:47,098 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:29:47,298 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:29:47,317 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:30:29,763 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:30:29,766 INFO supervisord started with pid 1
+2024-10-14 05:30:29,834 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:30:29,836 INFO supervisord started with pid 1
+2024-10-14 05:30:30,767 INFO spawned: 'npm' with pid 7
+2024-10-14 05:30:30,769 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:30:30,771 INFO spawned: 'queue' with pid 9
+2024-10-14 05:30:30,773 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:30:30,839 INFO spawned: 'npm' with pid 6
+2024-10-14 05:30:30,842 INFO spawned: 'php-fpm' with pid 7
+2024-10-14 05:30:30,844 INFO spawned: 'queue' with pid 8
+2024-10-14 05:30:30,847 INFO spawned: 'reverb' with pid 9
+2024-10-14 05:30:31,847 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,847 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,847 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,847 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,927 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,927 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,927 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:31,928 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:51,641 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:30:51,644 INFO supervisord started with pid 1
+2024-10-14 05:30:52,647 INFO spawned: 'npm' with pid 45
+2024-10-14 05:30:52,648 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:30:52,651 INFO spawned: 'queue' with pid 47
+2024-10-14 05:30:52,653 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:30:54,444 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:54,444 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:54,444 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:30:54,444 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:31:16,467 WARN received SIGQUIT indicating exit request
+2024-10-14 05:31:16,468 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:31:16,486 INFO stopped: reverb (exit status 0)
+2024-10-14 05:31:16,512 INFO stopped: queue (exit status 0)
+2024-10-14 05:31:16,518 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:31:16,867 WARN received SIGQUIT indicating exit request
+2024-10-14 05:31:16,868 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:31:16,888 INFO stopped: reverb (exit status 0)
+2024-10-14 05:31:16,926 WARN received SIGQUIT indicating exit request
+2024-10-14 05:31:16,927 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:31:16,942 INFO stopped: reverb (exit status 0)
+2024-10-14 05:31:16,967 INFO stopped: queue (exit status 0)
+2024-10-14 05:31:16,973 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:31:17,519 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:31:17,973 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:31:19,891 INFO waiting for npm, php-fpm, queue to die
+2024-10-14 05:31:19,922 INFO stopped: queue (exit status 0)
+2024-10-14 05:31:19,931 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:31:20,932 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:32:00,499 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:32:00,501 INFO supervisord started with pid 1
+2024-10-14 05:32:00,519 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:32:00,520 INFO supervisord started with pid 1
+2024-10-14 05:32:01,502 INFO spawned: 'npm' with pid 6
+2024-10-14 05:32:01,504 INFO spawned: 'php-fpm' with pid 7
+2024-10-14 05:32:01,506 INFO spawned: 'queue' with pid 8
+2024-10-14 05:32:01,508 INFO spawned: 'reverb' with pid 9
+2024-10-14 05:32:01,522 INFO spawned: 'npm' with pid 7
+2024-10-14 05:32:01,525 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:32:01,529 INFO spawned: 'queue' with pid 9
+2024-10-14 05:32:01,536 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:32:02,606 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,606 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,606 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,607 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,616 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,616 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,616 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:02,616 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:21,373 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:32:21,376 INFO supervisord started with pid 1
+2024-10-14 05:32:22,377 INFO spawned: 'npm' with pid 45
+2024-10-14 05:32:22,379 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:32:22,381 INFO spawned: 'queue' with pid 47
+2024-10-14 05:32:22,383 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:32:24,042 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:24,043 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:24,043 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:24,043 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:32:27,937 WARN received SIGQUIT indicating exit request
+2024-10-14 05:32:27,938 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:32:27,962 INFO stopped: reverb (exit status 0)
+2024-10-14 05:32:27,970 WARN received SIGQUIT indicating exit request
+2024-10-14 05:32:27,971 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:32:27,997 INFO stopped: reverb (exit status 0)
+2024-10-14 05:32:28,001 INFO stopped: queue (exit status 0)
+2024-10-14 05:32:28,010 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:32:28,041 INFO stopped: queue (exit status 0)
+2024-10-14 05:32:28,049 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:32:28,051 WARN received SIGQUIT indicating exit request
+2024-10-14 05:32:28,052 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:32:28,083 INFO stopped: reverb (exit status 0)
+2024-10-14 05:32:28,121 INFO stopped: queue (exit status 0)
+2024-10-14 05:32:28,129 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:32:29,011 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:32:29,051 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:32:29,130 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:33:12,155 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:33:12,157 INFO supervisord started with pid 1
+2024-10-14 05:33:12,312 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:33:12,315 INFO supervisord started with pid 1
+2024-10-14 05:33:13,158 INFO spawned: 'npm' with pid 7
+2024-10-14 05:33:13,160 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:33:13,162 INFO spawned: 'queue' with pid 9
+2024-10-14 05:33:13,164 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:33:13,317 INFO spawned: 'npm' with pid 8
+2024-10-14 05:33:13,319 INFO spawned: 'php-fpm' with pid 9
+2024-10-14 05:33:13,321 INFO spawned: 'queue' with pid 10
+2024-10-14 05:33:13,324 INFO spawned: 'reverb' with pid 11
+2024-10-14 05:33:14,200 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,200 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,200 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,201 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,396 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,396 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,396 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:14,396 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:35,126 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:33:35,128 INFO supervisord started with pid 1
+2024-10-14 05:33:36,131 INFO spawned: 'npm' with pid 45
+2024-10-14 05:33:36,135 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:33:36,138 INFO spawned: 'queue' with pid 47
+2024-10-14 05:33:36,140 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:33:37,254 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:37,254 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:37,255 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:33:37,255 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:37:52,214 WARN received SIGQUIT indicating exit request
+2024-10-14 05:37:52,215 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:37:52,231 INFO stopped: reverb (exit status 0)
+2024-10-14 05:37:52,250 WARN received SIGQUIT indicating exit request
+2024-10-14 05:37:52,251 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:37:52,269 INFO stopped: queue (exit status 0)
+2024-10-14 05:37:52,270 INFO stopped: reverb (exit status 0)
+2024-10-14 05:37:52,278 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:37:52,305 INFO stopped: queue (exit status 0)
+2024-10-14 05:37:52,315 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:37:52,764 WARN received SIGQUIT indicating exit request
+2024-10-14 05:37:52,765 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:37:52,792 INFO stopped: reverb (exit status 0)
+2024-10-14 05:37:52,833 INFO stopped: queue (exit status 0)
+2024-10-14 05:37:52,839 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:37:53,280 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:37:53,317 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:37:53,841 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:38:34,184 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:38:34,187 INFO supervisord started with pid 1
+2024-10-14 05:38:34,210 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:38:34,212 INFO supervisord started with pid 1
+2024-10-14 05:38:35,189 INFO spawned: 'npm' with pid 7
+2024-10-14 05:38:35,190 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:38:35,192 INFO spawned: 'queue' with pid 9
+2024-10-14 05:38:35,194 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:38:35,215 INFO spawned: 'npm' with pid 7
+2024-10-14 05:38:35,218 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:38:35,221 INFO spawned: 'queue' with pid 9
+2024-10-14 05:38:35,226 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:38:36,302 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,302 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,302 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,303 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,312 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,312 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,312 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:36,312 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:56,325 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:38:56,327 INFO supervisord started with pid 1
+2024-10-14 05:38:57,330 INFO spawned: 'npm' with pid 45
+2024-10-14 05:38:57,331 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:38:57,333 INFO spawned: 'queue' with pid 47
+2024-10-14 05:38:57,336 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:38:58,376 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:58,376 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:58,377 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:38:58,377 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:41:23,124 WARN received SIGQUIT indicating exit request
+2024-10-14 05:41:23,125 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:41:23,152 INFO stopped: reverb (exit status 0)
+2024-10-14 05:41:23,190 INFO stopped: queue (exit status 0)
+2024-10-14 05:41:23,200 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:41:23,440 WARN received SIGQUIT indicating exit request
+2024-10-14 05:41:23,441 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:41:23,460 INFO stopped: reverb (exit status 0)
+2024-10-14 05:41:23,494 INFO stopped: queue (exit status 0)
+2024-10-14 05:41:23,504 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:41:23,514 WARN received SIGQUIT indicating exit request
+2024-10-14 05:41:23,514 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:41:23,531 INFO stopped: reverb (exit status 0)
+2024-10-14 05:41:23,566 INFO stopped: queue (exit status 0)
+2024-10-14 05:41:23,576 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:41:24,201 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:41:24,505 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:41:24,577 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:42:58,840 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:42:58,842 INFO supervisord started with pid 1
+2024-10-14 05:42:58,884 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:42:58,885 INFO supervisord started with pid 1
+2024-10-14 05:42:59,844 INFO spawned: 'npm' with pid 7
+2024-10-14 05:42:59,846 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:42:59,848 INFO spawned: 'queue' with pid 9
+2024-10-14 05:42:59,850 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:42:59,888 INFO spawned: 'npm' with pid 7
+2024-10-14 05:42:59,891 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:42:59,897 INFO spawned: 'queue' with pid 9
+2024-10-14 05:42:59,904 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:43:00,960 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,960 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,961 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,961 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,987 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,988 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,988 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:00,988 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:19,583 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:43:19,587 INFO supervisord started with pid 1
+2024-10-14 05:43:20,589 INFO spawned: 'npm' with pid 46
+2024-10-14 05:43:20,592 INFO spawned: 'php-fpm' with pid 47
+2024-10-14 05:43:20,595 INFO spawned: 'queue' with pid 48
+2024-10-14 05:43:20,599 INFO spawned: 'reverb' with pid 49
+2024-10-14 05:43:21,615 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:21,615 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:21,616 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:43:21,616 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:01,607 WARN received SIGQUIT indicating exit request
+2024-10-14 05:57:01,608 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:57:01,635 INFO stopped: reverb (exit status 0)
+2024-10-14 05:57:01,657 WARN received SIGQUIT indicating exit request
+2024-10-14 05:57:01,658 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:57:01,683 INFO stopped: reverb (exit status 0)
+2024-10-14 05:57:01,691 INFO stopped: queue (exit status 0)
+2024-10-14 05:57:01,705 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:57:01,747 INFO stopped: queue (exit status 0)
+2024-10-14 05:57:01,766 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:57:02,024 WARN received SIGQUIT indicating exit request
+2024-10-14 05:57:02,025 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 05:57:02,057 INFO stopped: reverb (exit status 0)
+2024-10-14 05:57:02,112 INFO stopped: queue (exit status 0)
+2024-10-14 05:57:02,121 INFO stopped: php-fpm (exit status 0)
+2024-10-14 05:57:02,706 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:57:02,767 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:57:03,122 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 05:57:45,443 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:57:45,445 INFO supervisord started with pid 1
+2024-10-14 05:57:45,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:57:45,455 INFO supervisord started with pid 1
+2024-10-14 05:57:46,447 INFO spawned: 'npm' with pid 6
+2024-10-14 05:57:46,449 INFO spawned: 'php-fpm' with pid 7
+2024-10-14 05:57:46,451 INFO spawned: 'queue' with pid 8
+2024-10-14 05:57:46,453 INFO spawned: 'reverb' with pid 9
+2024-10-14 05:57:46,457 INFO spawned: 'npm' with pid 7
+2024-10-14 05:57:46,459 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 05:57:46,462 INFO spawned: 'queue' with pid 9
+2024-10-14 05:57:46,468 INFO spawned: 'reverb' with pid 10
+2024-10-14 05:57:47,554 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,554 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,554 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,554 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,582 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,582 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,582 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:57:47,582 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:58:07,144 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 05:58:07,146 INFO supervisord started with pid 1
+2024-10-14 05:58:08,149 INFO spawned: 'npm' with pid 45
+2024-10-14 05:58:08,150 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 05:58:08,152 INFO spawned: 'queue' with pid 47
+2024-10-14 05:58:08,155 INFO spawned: 'reverb' with pid 48
+2024-10-14 05:58:10,137 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:58:10,138 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:58:10,138 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 05:58:10,139 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:12,573 WARN received SIGQUIT indicating exit request
+2024-10-14 06:01:12,573 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:01:12,593 INFO stopped: reverb (exit status 0)
+2024-10-14 06:01:12,629 INFO stopped: queue (exit status 0)
+2024-10-14 06:01:12,635 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:01:12,734 WARN received SIGQUIT indicating exit request
+2024-10-14 06:01:12,735 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:01:12,751 INFO stopped: reverb (exit status 0)
+2024-10-14 06:01:12,789 INFO stopped: queue (exit status 0)
+2024-10-14 06:01:12,800 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:01:13,164 WARN received SIGQUIT indicating exit request
+2024-10-14 06:01:13,165 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:01:13,182 INFO stopped: reverb (exit status 0)
+2024-10-14 06:01:13,219 INFO stopped: queue (exit status 0)
+2024-10-14 06:01:13,229 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:01:13,635 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:01:13,801 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:01:14,230 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:01:56,851 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:01:56,853 INFO supervisord started with pid 1
+2024-10-14 06:01:56,875 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:01:56,877 INFO supervisord started with pid 1
+2024-10-14 06:01:57,856 INFO spawned: 'npm' with pid 7
+2024-10-14 06:01:57,858 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 06:01:57,859 INFO spawned: 'queue' with pid 9
+2024-10-14 06:01:57,862 INFO spawned: 'reverb' with pid 10
+2024-10-14 06:01:57,879 INFO spawned: 'npm' with pid 7
+2024-10-14 06:01:57,885 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 06:01:57,890 INFO spawned: 'queue' with pid 9
+2024-10-14 06:01:57,897 INFO spawned: 'reverb' with pid 10
+2024-10-14 06:01:59,141 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,141 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,142 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,142 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,172 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,172 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,172 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:01:59,172 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:02:19,490 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:02:19,493 INFO supervisord started with pid 1
+2024-10-14 06:02:20,495 INFO spawned: 'npm' with pid 44
+2024-10-14 06:02:20,496 INFO spawned: 'php-fpm' with pid 45
+2024-10-14 06:02:20,498 INFO spawned: 'queue' with pid 46
+2024-10-14 06:02:20,501 INFO spawned: 'reverb' with pid 47
+2024-10-14 06:02:22,475 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:02:22,477 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:02:22,477 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:02:22,478 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:10,383 WARN received SIGQUIT indicating exit request
+2024-10-14 06:05:10,384 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:05:10,401 INFO stopped: reverb (exit status 0)
+2024-10-14 06:05:10,435 INFO stopped: queue (exit status 0)
+2024-10-14 06:05:10,444 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:05:10,506 WARN received SIGQUIT indicating exit request
+2024-10-14 06:05:10,507 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:05:10,523 INFO stopped: reverb (exit status 0)
+2024-10-14 06:05:10,563 INFO stopped: queue (exit status 0)
+2024-10-14 06:05:10,574 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:05:10,614 WARN received SIGQUIT indicating exit request
+2024-10-14 06:05:10,615 INFO waiting for npm, php-fpm, queue, reverb to die
+2024-10-14 06:05:10,632 INFO stopped: reverb (exit status 0)
+2024-10-14 06:05:10,668 INFO stopped: queue (exit status 0)
+2024-10-14 06:05:10,677 INFO stopped: php-fpm (exit status 0)
+2024-10-14 06:05:11,445 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:05:11,575 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:05:11,680 WARN stopped: npm (terminated by SIGTERM)
+2024-10-14 06:05:53,703 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:05:53,712 INFO supervisord started with pid 1
+2024-10-14 06:05:53,811 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:05:53,813 INFO supervisord started with pid 1
+2024-10-14 06:05:54,714 INFO spawned: 'npm' with pid 7
+2024-10-14 06:05:54,715 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 06:05:54,717 INFO spawned: 'queue' with pid 9
+2024-10-14 06:05:54,719 INFO spawned: 'reverb' with pid 10
+2024-10-14 06:05:54,814 INFO spawned: 'npm' with pid 7
+2024-10-14 06:05:54,817 INFO spawned: 'php-fpm' with pid 8
+2024-10-14 06:05:54,820 INFO spawned: 'queue' with pid 9
+2024-10-14 06:05:54,823 INFO spawned: 'reverb' with pid 10
+2024-10-14 06:05:55,879 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,879 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,880 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,880 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,987 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,988 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,988 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:05:55,988 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:06:16,666 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-14 06:06:16,669 INFO supervisord started with pid 1
+2024-10-14 06:06:17,671 INFO spawned: 'npm' with pid 45
+2024-10-14 06:06:17,673 INFO spawned: 'php-fpm' with pid 46
+2024-10-14 06:06:17,675 INFO spawned: 'queue' with pid 47
+2024-10-14 06:06:17,677 INFO spawned: 'reverb' with pid 48
+2024-10-14 06:06:19,647 INFO success: npm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:06:19,648 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:06:19,648 INFO success: queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-10-14 06:06:19,649 INFO success: reverb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
