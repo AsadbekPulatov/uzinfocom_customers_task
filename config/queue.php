@@ -83,7 +83,19 @@ return [
                     'vhost' => env('RABBITMQ_VHOST', '/'),
                 ],
             ],
-            'queue' => env('RABBITMQ_QUEUE', 'default'),
+            'options' => [
+                'exchange' => [
+                    'name' => env('RABBITMQ_EXCHANGE_NAME', 'application_exchange'),
+                    'type' => env('RABBITMQ_EXCHANGE_TYPE', 'topic'),
+                    'declare' => true,
+                ],
+                'queue' => [
+                    'name' => env('RABBITMQ_QUEUE', 'default'),
+                    'declare' => true,
+                    'bind' => true,
+                ],
+            ],
+//            'queue' => env('RABBITMQ_QUEUE', 'default'),
             'retry_after' => 90,
             'after_commit' => false,
         ],

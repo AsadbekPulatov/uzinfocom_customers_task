@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Cache;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
@@ -31,10 +32,24 @@ class ConsumeCommand extends Command
         $channel = $connection->channel();
 
         $channel->queue_declare('laravel', false, false, false, false);
-        echo "[*] Waiting for messages. To exit press CTRL+C\n";
 
+
+        if (Cache::get('laravel_rabbitmq')){
+            $message = Cache::get('laravel_rabbitmq');
+            echo "Started cached message.\n";
+            echo " [*] Received {$message}\n";
+            sleep(substr_count($message, '.'));
+            echo " [x] Done\n";
+            Cache::forget('laravel_rabbitmq');
+        }
+
+        echo "[*] Waiting for messages. To exit press CTRL+C\n";
         $callback = function (AMQPMessage $msg) {
-            echo "[x] Received: {$msg->getBody()}\n";
+            Cache::set('laravel_rabbitmq', $msg->getBody());
+            echo ' [x] Received ', $msg->getBody(), "\n";
+            sleep(substr_count($msg->getBody(), '.'));
+            echo " [x] Done\n";
+            Cache::forget('laravel_rabbitmq');
         };
 
         $channel->basic_consume('laravel', '', false, true, false, false, $callback);

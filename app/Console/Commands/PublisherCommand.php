@@ -31,10 +31,12 @@ class PublisherCommand extends Command
         $channel = $connection->channel();
 
         $channel->queue_declare('laravel', false, false, false, false);
-        $msg = new AMQPMessage('hello world');
+
+        $data = "Sleep................................";
+        $msg = new AMQPMessage($data);
         $channel->basic_publish($msg, '', 'laravel');
 
-        echo " [x] Sent 'Hello World!'\n";
+        echo " [x] Sent {$data}\n";
 
         $channel->close();
         $connection->close();

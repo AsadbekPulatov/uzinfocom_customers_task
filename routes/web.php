@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Jobs\ExportCustomerJob;
 use Illuminate\Support\Facades\Route;
+use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 Route::get('/', function () {
     dd(gethostname());
