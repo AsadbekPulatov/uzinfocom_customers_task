@@ -2,23 +2,36 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Jobs\ExportCustomerJob;
+use App\Services\ElasticsearchService;
 use Illuminate\Support\Facades\Route;
-use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 Route::get('/', function () {
+//    $params = [
+//        'index' => 'customers',
+//        'body' => [
+//            'query' => [
+//                'match' => [
+//                    'full_name' => 'Matteo Mills'
+//                ]
+//            ]
+//        ],
+//    ];
+//    $client = new \App\Services\ElasticsearchService();
+//    $res = $client->search($params);
+//    dd($res['hits']['hits']);
     dd(gethostname());
     return view('welcome');
 });
 
 Route::view('/download/test/my/telescope', 'telescope');
 
-Route::get('/download',function (){
-   ExportCustomerJob::dispatch();
-   return 'started';
+Route::get('/download', function () {
+    ExportCustomerJob::dispatch();
+    return 'started';
 });
 
-Route::get('/download/{link}', function ($link){
-    return response()->download(public_path('storage/'.$link));
+Route::get('/download/{link}', function ($link) {
+    return response()->download(public_path('storage/' . $link));
 });
 
 Route::get('/dashboard', function () {
@@ -31,4 +44,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
