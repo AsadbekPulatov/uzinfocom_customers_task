@@ -37,27 +37,27 @@ class ExportCustomerCommand extends Command
             $service->deleteIndexes(['index' => $index]);
             $service->createIndexes(['index' => $index]);
             $this->info('created elasticsearch index ' . $index);
-
-            Customer::chunk(500, function ($customers) use ($service, $index) {
-                foreach ($customers as $customer) {
-                    $params['body'][] = [
-                        'index' => [
-                            '_index' => $index,
-                        ]
-                    ];
-
-                    $params['body'][] = [
-                        'id' => $customer->id,
-                        'full_name' => $customer->full_name,
-                        'phone' => $customer->phone,
-                        'email' => $customer->email,
-                        'address' => $customer->address,
-                    ];
-                }
-                $response = $service->bulk($params);
-                $this->info('elasticsearch bulking process: ');
-            });
-            $this->info('finished elasticsearch index ' . $index);
         }
+
+        Customer::chunk(500, function ($customers) use ($service, $index) {
+            foreach ($customers as $customer) {
+                $params['body'][] = [
+                    'index' => [
+                        '_index' => $index,
+                    ]
+                ];
+
+                $params['body'][] = [
+                    'id' => $customer->id,
+                    'full_name' => $customer->full_name,
+                    'phone' => $customer->phone,
+                    'email' => $customer->email,
+                    'address' => $customer->address,
+                ];
+            }
+            $response = $service->bulk($params);
+            $this->info('elasticsearch bulking process: ');
+        });
+        $this->info('finished elasticsearch index ' . $index);
     }
 }
