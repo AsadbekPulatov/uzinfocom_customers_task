@@ -4,3 +4,6 @@ Task:
 3. Asinxron tarzda export qilish (barcha qatorlarni) //done
 4. Export uchun command tugagandan keyin notification yuborish - pusher
 5. FE da uni ko'chirib olish imkoniyati (pusher orqali kelganda link kelsin)
+
+Testing:
+1. Test ga qiladigan vazifalaridan kelib chiqib togri nomlash.

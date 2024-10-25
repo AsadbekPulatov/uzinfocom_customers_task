@@ -19,7 +19,6 @@ Route::get('/', function () {
 //    $client = new \App\Services\ElasticsearchService();
 //    $res = $client->search($params);
 //    dd($res['hits']['hits']);
-    dd(gethostname());
     return view('welcome');
 });
 
@@ -27,11 +26,14 @@ Route::view('/download/test/my/telescope', 'telescope');
 
 Route::get('/download', function () {
     ExportCustomerJob::dispatch();
-    return 'started';
+    return response()->json('started', 200);
 });
 
 Route::get('/download/{link}', function ($link) {
-    return response()->download(public_path('storage/' . $link));
+    if (\Illuminate\Support\Facades\File::exists(public_path('storage/' . $link))) {
+        return response()->download(public_path('storage/' . $link));
+    } else
+        return response()->json('file not found', 404);
 });
 
 Route::get('/dashboard', function () {
